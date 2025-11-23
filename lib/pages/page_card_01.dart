@@ -197,7 +197,19 @@ class MyCardNight extends StatelessWidget {
                         children: [
                           //cicrle avatar
                           Container(
-                            decoration: BoxDecoration(shape: BoxShape.circle),
+                            decoration: BoxDecoration(
+                              shape: BoxShape.circle,
+                              border: Border.all(color: Colors.white, width: 4),
+                              boxShadow: [
+                                BoxShadow(
+                                  color: Colors.black.withValues(alpha: 0.2),
+                                  blurRadius: 10,
+                                  //offset (x,y) positif ke kanan
+                                  offset: Offset(0, 5),
+                                ),
+                              ],
+                            ),
+
                             child: CircleAvatar(
                               radius: 60,
                               backgroundImage: AssetImage(
