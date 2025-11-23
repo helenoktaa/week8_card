@@ -113,6 +113,17 @@ class MyCardNight extends StatelessWidget {
                   ),
                 ),
               ),
+              SizedBox(height: 5),
+              Card(
+                shadowColor: Colors.red,
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    "Shadow Color Card",
+                    style: TextStyle(fontSize: 14.0),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
