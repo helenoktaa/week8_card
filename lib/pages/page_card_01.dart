@@ -102,6 +102,17 @@ class MyCardNight extends StatelessWidget {
                   style: TextStyle(fontSize: 14.0),
                 ),
               ),
+              SizedBox(height: 5),
+              Card(
+                semanticContainer: true,
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    "Semantic true",
+                    style: TextStyle(fontSize: 14.0),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
