@@ -57,8 +57,19 @@ class MyCardNight extends StatelessWidget {
                   style: TextStyle(fontSize: 12.0),
                 ),
               ),
-              
-              
+              SizedBox(height: 5),
+              Card(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(15.0),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    "Shape Bingkai persegi panjang",
+                    style: TextStyle(fontSize: 12.0),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
