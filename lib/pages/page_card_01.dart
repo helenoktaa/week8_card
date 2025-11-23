@@ -173,6 +173,26 @@ class MyCardNight extends StatelessWidget {
                     ),
                   ),
                 ),
+                SizedBox(height: 5),
+
+                //avatar card
+                Card(
+                  elevation: 8,
+                  shadowColor: Colors.red,
+                  //contoh memeotong gradient melengkung
+                  //dan jika tidak digunakan maka akan jadi kotak
+                  clipBehavior: Clip.antiAlias,
+                  child: Container(
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        begin: Alignment.topRight,
+                        end: Alignment.bottomLeft,
+                        colors: [Colors.pinkAccent, Colors.lightBlue],
+                      ),
+                    ),
+                    child: Text("Text", style: TextStyle(fontSize: 20.0)),
+                  ),
+                ),
               ],
             ),
           ),
