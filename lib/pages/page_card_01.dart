@@ -192,7 +192,7 @@ class MyCardNight extends StatelessWidget {
                     ),
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Row(
+                      child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           //cicrle avatar
@@ -217,11 +217,99 @@ class MyCardNight extends StatelessWidget {
                               ),
                             ),
                           ),
+                          SizedBox(height: 10),
 
                           //text name
+                          Text(
+                            "Helen Oktaviani",
+                            style: TextStyle(
+                              fontSize: 26.0,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white,
+                            ),
+                          ),
+                          SizedBox(height: 10),
+
                           //container BoxDecoration circular
-                          //dengan text Flutter Developer
-                          //row dengan 3 row
+                          Container(
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 16,
+                              vertical: 6,
+                            ),
+                            decoration: BoxDecoration(
+                              color: Colors.lightBlueAccent,
+                              borderRadius: BorderRadius.circular(20),
+                            ),
+                            child: const Text(
+                              'Informatics Engineering Student',
+                              style: TextStyle(
+                                fontSize: 16,
+                                color: Colors.white,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                          ),
+                          SizedBox(height: 10),
+
+                          //row dengan 3 column
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            //column 1
+                            children: [
+                              Text(
+                                "Column 1",
+                                style: TextStyle(
+                                  fontSize: 11.0,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              //garis vertical
+                              SizedBox(
+                                height: 40,
+                                child: VerticalDivider(
+                                  thickness: 1,
+                                  color: Colors.black,
+                                  width: 1,
+                                ),
+                              ),
+
+                              //column 2
+                              Text(
+                                "Column 2",
+                                style: TextStyle(
+                                  fontSize: 11.0,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              //garis vertical
+                              SizedBox(
+                                height: 40,
+                                child: VerticalDivider(
+                                  thickness: 1,
+                                  color: Colors.black,
+                                  width: 1,
+                                ),
+                              ),
+
+                              //column 3
+                              Text(
+                                "Column 3",
+                                style: TextStyle(
+                                  fontSize: 11.0,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              //garis vertical
+                              SizedBox(
+                                height: 40,
+                                child: VerticalDivider(
+                                  thickness: 1,
+                                  color: Colors.black,
+                                  width: 1,
+                                ),
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
