@@ -30,6 +30,16 @@ class MyCardNight extends StatelessWidget {
                   style: TextStyle(fontSize: 16.0),
                 ),
               ),
+              SizedBox(height: 5),
+              Card(
+                elevation: 8, // tinggi bayangan
+                color: Colors.yellow,
+                child: Text(
+                  "Tinggi bayangan Shadow",
+                  style: TextStyle(fontSize: 12.0),
+                ),
+              ),
+              
             ],
           ),
         ),
