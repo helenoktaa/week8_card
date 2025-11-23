@@ -395,7 +395,30 @@ class MyCardNight extends StatelessWidget {
                           ],
                         ),
                         SizedBox(height: 30),
-                        
+                        const Text(
+                          '4562 1122 4595 7852',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 20.0,
+                            letterSpacing: 2,
+                            fontWeight: FontWeight.w500,
+                          ),
+                        ),
+                        SizedBox(height: 30),
+
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: const [
+                            Text(
+                              "Helen Oktaviani", 
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 20.0,
+                                fontWeight: FontWeight.bold
+                              ),
+                              ),
+                            ],
+                        ),
                       ],
                     ),
                   ),
