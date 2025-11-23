@@ -410,15 +410,16 @@ class MyCardNight extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: const [
                             Text(
-                              "Helen Oktaviani", 
+                              "Helen Oktaviani",
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 20.0,
-                                fontWeight: FontWeight.bold
+                                fontWeight: FontWeight.bold,
                               ),
-                              ),
-                            ],
+                            ),
+                          ],
                         ),
+                        SizedBox(height: 10),
                       ],
                     ),
                   ),
