@@ -254,15 +254,28 @@ class MyCardNight extends StatelessWidget {
                           //row dengan 3 column
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                            //column 1
+
                             children: [
-                              Text(
-                                "Column 1",
-                                style: TextStyle(
-                                  fontSize: 11.0,
-                                  fontWeight: FontWeight.bold,
-                                ),
+                              //column 1
+                              Column(
+                                children: [
+                                  Text(
+                                    "100",
+                                    style: TextStyle(
+                                      fontSize: 22.0,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  Text(
+                                    "Followers",
+                                    style: TextStyle(
+                                      fontSize: 14.0,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ],
                               ),
+
                               //garis vertical
                               SizedBox(
                                 height: 40,
@@ -274,12 +287,23 @@ class MyCardNight extends StatelessWidget {
                               ),
 
                               //column 2
-                              Text(
-                                "Column 2",
-                                style: TextStyle(
-                                  fontSize: 11.0,
-                                  fontWeight: FontWeight.bold,
-                                ),
+                              Column(
+                                children: [
+                                  Text(
+                                    "8",
+                                    style: TextStyle(
+                                      fontSize: 22.0,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  Text(
+                                    "Years",
+                                    style: TextStyle(
+                                      fontSize: 14.0,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ],
                               ),
                               //garis vertical
                               SizedBox(
@@ -292,21 +316,23 @@ class MyCardNight extends StatelessWidget {
                               ),
 
                               //column 3
-                              Text(
-                                "Column 3",
-                                style: TextStyle(
-                                  fontSize: 11.0,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                              //garis vertical
-                              SizedBox(
-                                height: 40,
-                                child: VerticalDivider(
-                                  thickness: 1,
-                                  color: Colors.black,
-                                  width: 1,
-                                ),
+                              Column(
+                                children: [
+                                  Text(
+                                    "200",
+                                    style: TextStyle(
+                                      fontSize: 22.0,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  Text(
+                                    "Projects",
+                                    style: TextStyle(
+                                      fontSize: 14.0,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
