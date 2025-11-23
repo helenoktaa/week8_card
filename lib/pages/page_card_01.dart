@@ -78,7 +78,7 @@ class MyCardNight extends StatelessWidget {
                   child: Text("Margin Card", style: TextStyle(fontSize: 10.0)),
                 ),
               ),
-              SizedBox(height: 15),
+              SizedBox(height: 5),
               Card(
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(16),
@@ -93,6 +93,14 @@ class MyCardNight extends StatelessWidget {
                 // padding: EdgeInsets.all(8),
                 // child: Text("Border tidak menimpa konten"),
                 // ),
+              ),
+              SizedBox(height: 5),
+              Card(
+                clipBehavior: Clip.antiAlias,
+                child: Text(
+                  "Anti alias clip Card",
+                  style: TextStyle(fontSize: 14.0),
+                ),
               ),
             ],
           ),
