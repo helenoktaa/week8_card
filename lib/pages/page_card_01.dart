@@ -190,7 +190,26 @@ class MyCardNight extends StatelessWidget {
                         colors: [Colors.pinkAccent, Colors.lightBlue],
                       ),
                     ),
-                    child: Text("Text", style: TextStyle(fontSize: 20.0)),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        //cicrle avatar
+                        Container(
+                          decoration: BoxDecoration(shape: BoxShape.circle),
+                          child: CircleAvatar(
+                            radius: 60,
+                            backgroundImage: AssetImage(
+                              "assets/images/bubbles1.jpg",
+                            ),
+                          ),
+                        ),
+
+                        //text name
+                        //container BoxDecoration circular
+                        //dengan text Flutter Developer
+                        //row dengan 3 row
+                      ],
+                    ),
                   ),
                 ),
               ],
