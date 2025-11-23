@@ -124,6 +124,19 @@ class MyCardNight extends StatelessWidget {
                   ),
                 ),
               ),
+              SizedBox(height: 5),
+              Card(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(30.0),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    "Custom border Radius Card",
+                    style: TextStyle(fontSize: 14.0),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
