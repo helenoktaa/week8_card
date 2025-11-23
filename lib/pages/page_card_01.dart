@@ -141,6 +141,34 @@ class MyCardNight extends StatelessWidget {
                     ),
                   ),
                 ),
+
+                SizedBox(height: 10),
+
+                //card sederhana
+                Card(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Text(
+                        'About Me',
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      const SizedBox(height: 5),
+                      Text(
+                        'as an Informatics Engineering student at Global Institute. I always exploring new trends and technologies to refine my skills and make meaningful contributions to the intersection of technology and design.',
+                        style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.grey[700],
+                          height: 1.5,
+                        ),
+                        textAlign: TextAlign.justify,
+                      ),
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
