@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'pages/page_card_01.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "NIM: 1123150205, Helen",
+
+      home: const MyCardNight(),
     );
   }
-  
 }
