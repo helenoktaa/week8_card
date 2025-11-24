@@ -404,7 +404,7 @@ class MyCardNight extends StatelessWidget {
                             fontWeight: FontWeight.w500,
                           ),
                         ),
-                        SizedBox(height: 30),
+                        SizedBox(height: 20),
 
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -419,7 +419,7 @@ class MyCardNight extends StatelessWidget {
                             ),
                           ],
                         ),
-                        SizedBox(height: 10),
+                        SizedBox(height: 20),
                         Row(
                           children: [
                             Column(
@@ -459,6 +459,44 @@ class MyCardNight extends StatelessWidget {
                                     color: Colors.white,
                                     fontSize: 16.0,
                                     fontWeight: FontWeight.w500,
+                                  ),
+                                ),
+                              ],
+                            ),
+                            SizedBox(width: 210),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Stack(
+                                  children: [
+                                    Container(
+                                      width: 30,
+                                      height: 30,
+                                      decoration: const BoxDecoration(
+                                        color: Color(0xFFEB001B),
+                                        shape: BoxShape.circle,
+                                      ),
+                                    ),
+                                    Container(
+                                      margin: EdgeInsets.only(left: 15),
+                                      width: 30,
+                                      height: 30,
+                                      decoration: BoxDecoration(
+                                        color: Color(0xFFF79E1B),
+                                        shape: BoxShape.circle,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                const Align(
+                                  alignment: Alignment.bottomRight,
+                                  child: Text(
+                                    "Mastercard",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.bold,
+                                    ),
                                   ),
                                 ),
                               ],
