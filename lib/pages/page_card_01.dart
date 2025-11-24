@@ -428,12 +428,33 @@ class MyCardNight extends StatelessWidget {
                                 Text(
                                   "Expiry Date",
                                   style: TextStyle(
-                                    color: Colors.white,
+                                    color: Colors.white70,
                                     fontSize: 12.0,
                                   ),
                                 ),
                                 Text(
                                   "09/27",
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 16.0,
+                                    fontWeight: FontWeight.w500,
+                                  ),
+                                ),
+                              ],
+                            ),
+                            SizedBox(width: 40),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "CVV",
+                                  style: TextStyle(
+                                    color: Colors.white70,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                                Text(
+                                  "927",
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 16.0,
